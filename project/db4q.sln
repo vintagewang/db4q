@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lwpr", "..\ext\lwpr\project\lwpr.vcproj", "{21DEF436-4BBC-4ABE-8910-B634593FF08F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "genconfig", "..\ext\lwpr\project\genconfig.vcproj", "{26B76070-A908-485F-9AEB-9DB5C1ABB08A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pmon", "..\ext\lwpr\project\pmon.vcproj", "{ECA85E49-C63A-4C0F-A2E4-34DCF613DBB2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "db4q", "db4q.vcproj", "{9BBB7333-B13C-4A60-B789-EC52F38BC17D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "beanstalkd", "..\..\..\beanstalkd\beanstalkd\beanstalkd.vcproj", "{C0205CC1-FEAA-4CB5-8632-D87A22C30DAF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21DEF436-4BBC-4ABE-8910-B634593FF08F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21DEF436-4BBC-4ABE-8910-B634593FF08F}.Debug|Win32.Build.0 = Debug|Win32
+		{21DEF436-4BBC-4ABE-8910-B634593FF08F}.Release|Win32.ActiveCfg = Release|Win32
+		{21DEF436-4BBC-4ABE-8910-B634593FF08F}.Release|Win32.Build.0 = Release|Win32
+		{26B76070-A908-485F-9AEB-9DB5C1ABB08A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26B76070-A908-485F-9AEB-9DB5C1ABB08A}.Debug|Win32.Build.0 = Debug|Win32
+		{26B76070-A908-485F-9AEB-9DB5C1ABB08A}.Release|Win32.ActiveCfg = Release|Win32
+		{26B76070-A908-485F-9AEB-9DB5C1ABB08A}.Release|Win32.Build.0 = Release|Win32
+		{ECA85E49-C63A-4C0F-A2E4-34DCF613DBB2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECA85E49-C63A-4C0F-A2E4-34DCF613DBB2}.Debug|Win32.Build.0 = Debug|Win32
+		{ECA85E49-C63A-4C0F-A2E4-34DCF613DBB2}.Release|Win32.ActiveCfg = Release|Win32
+		{ECA85E49-C63A-4C0F-A2E4-34DCF613DBB2}.Release|Win32.Build.0 = Release|Win32
+		{9BBB7333-B13C-4A60-B789-EC52F38BC17D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BBB7333-B13C-4A60-B789-EC52F38BC17D}.Debug|Win32.Build.0 = Debug|Win32
+		{9BBB7333-B13C-4A60-B789-EC52F38BC17D}.Release|Win32.ActiveCfg = Release|Win32
+		{9BBB7333-B13C-4A60-B789-EC52F38BC17D}.Release|Win32.Build.0 = Release|Win32
+		{C0205CC1-FEAA-4CB5-8632-D87A22C30DAF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0205CC1-FEAA-4CB5-8632-D87A22C30DAF}.Debug|Win32.Build.0 = Debug|Win32
+		{C0205CC1-FEAA-4CB5-8632-D87A22C30DAF}.Release|Win32.ActiveCfg = Release|Win32
+		{C0205CC1-FEAA-4CB5-8632-D87A22C30DAF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
